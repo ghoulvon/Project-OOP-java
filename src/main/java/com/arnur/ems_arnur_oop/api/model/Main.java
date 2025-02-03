@@ -3,7 +3,7 @@ import com.arnur.ems_arnur_oop.api.model.Employee;
 import com.arnur.ems_arnur_oop.api.model.Manager;
 import com.arnur.ems_arnur_oop.api.model.Intern;
 import com.arnur.ems_arnur_oop.api.model.EmployeeFactory;
-import com.arnur.ems_arnur_oop.api.model.Main;
+
 
 
 public class Main {
