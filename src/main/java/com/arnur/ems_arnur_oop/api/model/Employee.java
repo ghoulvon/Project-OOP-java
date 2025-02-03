@@ -1,7 +1,16 @@
 package com.arnur.ems_arnur_oop.api.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.Data;
+
+@Data
+@Entity
+@Table(name="Employee")
 public class Employee {
-    private Long id;
+    @Id
+    private long id;
     private String name;
     private String position;
     private double salary;
