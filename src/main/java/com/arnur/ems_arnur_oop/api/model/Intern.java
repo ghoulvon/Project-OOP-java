@@ -1,18 +1,21 @@
-package com.arnur.ems_arnur_oop.api.model;
 public class Intern extends Employee {
-    private String University;
-    public Intern(Long id, String name, String position, double salary, String University) {
+    private String university;
+
+    public Intern(Long id, String name, String position, double salary, String university) {
         super(id, name, position, salary);
-        this.University = University;
+        this.university = university;
     }
+
     public String getUniversity() {
-        return University;
+        return university;
     }
-    public void setUniversity(String Company) {
-        this.University = University;
+
+    public void setUniversity(String university) {
+        this.university = university;
     }
+
     @Override
     public void work() {
-        System.out.println(getName() + " is working as an intern, alumni of " + University );
+        System.out.println(getName() + " is working as an intern, alumni of " + university);
     }
 }
